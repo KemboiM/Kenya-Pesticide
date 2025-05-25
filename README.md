@@ -17,11 +17,11 @@ A project designed to help Kenyan farmers, researchers, and regulators identify 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KemboiM/Kenya-Pesticide-.git
+git clone https://github.com/KemboiM/Kenya-Pesticide.git
 cd KenyaPesticideWatchdog
 ```
 
-### 2. Install Required Packages
+### 2. Installations
 
 Make sure you have Python 3 installed, then run:
 
@@ -62,7 +62,7 @@ This produces `flagged_products.csv` containing potentially banned or harmful ch
 
 ```
 KenyaPesticideWatchdog/
-├── scraper/
+├── Scripts/
 │   ├── fetch_pesticides_kenya.py       # Scrapes Kenya pesticide list
 │   ├── banned_list_checker.py          # Compares to global banned list
 ├── docs/
