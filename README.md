@@ -17,7 +17,7 @@ A project designed to help Kenyan farmers, researchers, and regulators identify 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/KenyaPesticideWatchdog.git
+git clone https://github.com/KemboiM/Kenya-Pesticide-.git
 cd KenyaPesticideWatchdog
 ```
 
@@ -80,7 +80,7 @@ KenyaPesticideWatchdog/
 
 ## 👥 Contributing
 
-We welcome contributions from:
+I welcome contributions from:
 - Farmers and agricultural workers
 - Data scientists
 - Policy advocates
