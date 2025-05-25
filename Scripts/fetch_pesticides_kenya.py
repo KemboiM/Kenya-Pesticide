@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 
+
 def fetch_tables_from_url(url):
     headers = {
         "User-Agent": "Mozilla/5.0"
