@@ -1,6 +1,6 @@
 # 🇰🇪 Kenya Pesticide Watchdog
 
-An open-source project designed to help Kenyan farmers, researchers, and regulators identify potentially hazardous or banned pesticides in the market. The tool scrapes official pesticide data in Kenya and compares it against global banned pesticide databases.
+A project designed to help Kenyan farmers, researchers, and regulators identify potentially hazardous or banned pesticides in the market. The tool scrapes official pesticide data in Kenya and compares it against global banned pesticide databases.
 
 ---
 
