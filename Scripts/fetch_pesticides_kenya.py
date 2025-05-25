@@ -39,7 +39,7 @@ def scrape_all_pages(base_url, page_param="page", max_pages=50, delay=1):
     all_data = []
 
     for page_num in range(1, max_pages + 1):
-        full_url = f"{base_url}?{page_param}={page_num}"
+        full_url = "https://www.pcpb.go.ke/pesticides"
         print(f"🔍 Scraping: {full_url}")
         df = fetch_tables_from_url(full_url)
 
@@ -60,7 +60,7 @@ def scrape_all_pages(base_url, page_param="page", max_pages=50, delay=1):
 
 if __name__ == "__main__":
     # Example: replace this with the actual pesticide listing URL
-    BASE_URL = "https://www.pestcontrolproductsboard.go.ke/product-register"
+    BASE_URL = "https://www.pcpb.go.ke/?s=pesticides+"
 
     scrape_all_pages(
         base_url=BASE_URL,
